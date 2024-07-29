@@ -1,14 +1,35 @@
 .Main {
   text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .Lists{
-  width: 50%;
+  width: 20%;
   height: 100%;
-  align-items: center;
+  align-items: center;  
+
 }
 
 .list{
+  margin: 20px;
+  height: 5%;
   border: 2px solid black;
-  border-radius: 20px;
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px ;
+}
+
+input{
+  height: 30px;
+  border-radius: 5px 0px 0px 5px;
+
+}
+.form-btn{
+  border-radius: 0px 5px 5px 0px;
+  height: 33px;
+
 }
